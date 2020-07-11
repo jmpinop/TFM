@@ -6,19 +6,19 @@
     y='coordenada y')``
 
 ## Bar chart
-histogram = alt.Chart(fichero).mark_bar().encode(
+``histogram = alt.Chart(fichero).mark_bar().encode(
     x=alt.X('coordenada x',bin=alt.Bin(maxbins=100)),
-    y='count coordenada y'
+    y='count coordenada y'``
 )
 
 ## Line chart
-line = alt.Chart(fichero).mark_line().encode(
+``line = alt.Chart(fichero).mark_line().encode(
     x='coordenada x',
-    y="coordenada y",
+    y="coordenada y"``
 )
 
 ## Geoloc chart
-geo = alt.Chart(fichero).mark_point().encode(
+``geo = alt.Chart(fichero).mark_point().encode(
     latitude="lat:Q",
-    longitude="lng:Q",
+    longitude="lng:Q"``
 )
