@@ -1,9 +1,9 @@
 # Chuleta Altair
 
 ## Scatter plot
-'''scatter = alt.Chart(fichero).mark_point().encode(
+``scatter = alt.Chart(fichero).mark_point().encode(
     x='coordenada x',
-    y='coordenada y')'''
+    y='coordenada y')``
 
 ## Bar chart
 histogram = alt.Chart(fichero).mark_bar().encode(
